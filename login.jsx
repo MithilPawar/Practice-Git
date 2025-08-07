@@ -21,7 +21,7 @@ function Login() {
 
   return (
     <div>
-      <h1>Login Page</h1>
+      <h1 className="text-center">Login Page</h1>
       <p>Please enter your credentials to log in.</p>
       <form onSubmit={handleSubmit}>
         <input
