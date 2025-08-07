@@ -40,7 +40,12 @@ function Login() {
           onChange={handleChange}
         />
         <br />
-        <button type="submit">Login</button>
+        <button
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded cursor"
+          type="submit"
+        >
+          Login
+        </button>
       </form>
     </div>
   );
